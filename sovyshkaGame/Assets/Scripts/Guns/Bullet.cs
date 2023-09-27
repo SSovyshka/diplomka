@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
     private Rigidbody2D rb;
     public Weapon weapon;
 
-    public int destroy = 1;
+    public int destroy = 100000;
 
     void Start()
     {
