@@ -15,7 +15,7 @@ C:/Users/Sovyshka/diplomka/sovyshkaGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64204
+64728
 Successfully changed project path to: C:/Users/Sovyshka/diplomka/sovyshkaGame
 C:/Users/Sovyshka/diplomka/sovyshkaGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Sovyshka/diplomka/sovyshkaGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23332] Host "[IP] 192.168.0.28 [Port] 0 [Flags] 2 [Guid] 2965895884 [EditorId] 2965895884 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9D1HEQ0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20724] Host "[IP] 192.168.0.28 [Port] 0 [Flags] 2 [Guid] 3589145877 [EditorId] 3589145877 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9D1HEQ0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23332] Host "[IP] 192.168.0.28 [Port] 0 [Flags] 2 [Guid] 2965895884 [EditorId] 2965895884 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9D1HEQ0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20724] Host "[IP] 192.168.0.28 [Port] 0 [Flags] 2 [Guid] 3589145877 [EditorId] 3589145877 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9D1HEQ0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 24.40 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 17.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path D:/Unity/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006446 seconds.
-- Loaded All Assemblies, in  0.602 seconds
+Registered in 0.008859 seconds.
+- Loaded All Assemblies, in  0.556 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 468 ms
+Android Extension - Scanning For ADB Devices 408 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.130 seconds
-Domain Reload Profiling: 1732ms
-	BeginReloadAssembly (166ms)
+- Finished resetting the current domain, in  0.962 seconds
+Domain Reload Profiling: 1517ms
+	BeginReloadAssembly (161ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (95ms)
-	LoadAllAssembliesAndSetupDomain (254ms)
-		LoadAssemblies (165ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (161ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (251ms)
-			TypeCache.Refresh (248ms)
-				TypeCache.ScanAssembly (226ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (203ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1131ms)
+	FinalizeReload (962ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1009ms)
+		SetupLoadedEditorAssemblies (860ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (668ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (576ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (221ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 1732ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.219 seconds
-Refreshing native plugins compatible for Editor in 14.78 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.162 seconds
+Refreshing native plugins compatible for Editor in 7.81 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,192 +127,75 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.252 seconds
-Domain Reload Profiling: 2468ms
-	BeginReloadAssembly (285ms)
+- Finished resetting the current domain, in  1.358 seconds
+Domain Reload Profiling: 2517ms
+	BeginReloadAssembly (342ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (755ms)
-		LoadAssemblies (561ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (665ms)
+		LoadAssemblies (521ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (351ms)
-			TypeCache.Refresh (296ms)
-				TypeCache.ScanAssembly (266ms)
-			ScanForSourceGeneratedMonoScriptInfo (41ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1253ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1358ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (913ms)
+		SetupLoadedEditorAssemblies (890ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (642ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (649ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 9.70 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 11.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4021 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (244.9 KB). Loaded Objects now: 4481.
-Memory consumption went from 142.1 MB to 141.8 MB.
-Total: 7.648800 ms (FindLiveObjects: 0.611300 ms CreateObjectMapping: 0.578900 ms MarkObjects: 6.110000 ms  DeleteObjects: 0.347100 ms)
+Unloading 69 unused Assets / (244.8 KB). Loaded Objects now: 4481.
+Memory consumption went from 142.0 MB to 141.7 MB.
+Total: 6.375800 ms (FindLiveObjects: 0.491600 ms CreateObjectMapping: 0.375800 ms MarkObjects: 5.135200 ms  DeleteObjects: 0.371500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 464066.091094 seconds.
-  path: Assets/Scripts/Guns/Sound/ak47.wav
-  artifactKey: Guid(0498108180142084a9b9918a0c4b77a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Sound/ak47.wav using Guid(0498108180142084a9b9918a0c4b77a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba236caebe8b204b79932978c0aeff6') in 0.136793 seconds
+  Time since last request: 467813.681611 seconds.
+  path: Assets/Scripts/Guns/Weapons/Snipers
+  artifactKey: Guid(3534d439d87ab1f43ab7c78e0bac1578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Snipers using Guid(3534d439d87ab1f43ab7c78e0bac1578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d80c2122df317938687b85d55695331') in 0.524740 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.325020 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f88b6e9a0c36eb8c25c1338bdf37580') in 0.047501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 4.689389 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5d9fa390a41f6e979ea6c1fcc4348c') in 0.012803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 6.232456 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738f18aaee187493c5aa01bc3c5cad2c') in 0.011248 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 5.557965 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1908b32f114103df069bbbcffa72991d') in 0.010860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 5.396572 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f8313abaccc219890078f756335b5f') in 0.010173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 4.974144 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7b8e5d50f3611f6cd926555d1d23c7') in 0.011596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 2.977522 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80654672db9cf2b30ac0d7cb1b1c119d') in 0.012628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 3.340655 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d6d75a05316c3ec26446bbb566a497') in 0.011326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 5.372239 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7df921ac28022570622a9eaa7c3dc32') in 0.010930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.804 seconds
-Refreshing native plugins compatible for Editor in 10.68 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.124 seconds
-Domain Reload Profiling: 2924ms
-	BeginReloadAssembly (263ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (389ms)
-		LoadAssemblies (510ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (2125ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (858ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (568ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 13.46 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4014 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4495.
-Memory consumption went from 139.9 MB to 139.7 MB.
-Total: 6.259500 ms (FindLiveObjects: 0.467800 ms CreateObjectMapping: 0.527000 ms MarkObjects: 4.952000 ms  DeleteObjects: 0.311200 ms)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (196.3 KB). Loaded Objects now: 4481.
+Memory consumption went from 77.8 MB to 77.6 MB.
+Total: 4.380800 ms (FindLiveObjects: 0.369300 ms CreateObjectMapping: 0.137200 ms MarkObjects: 3.678700 ms  DeleteObjects: 0.194300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -330,64 +213,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 100.975221 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Auto.cs
-  artifactKey: Guid(4f60e98d027010941a1210333592431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Auto.cs using Guid(4f60e98d027010941a1210333592431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd03f16d52e59bf2dac8985f1a88149') in 0.002146 seconds
+  Time since last request: 38.440128 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Flober.cs
+  artifactKey: Guid(b5383a79831e7f045b5c499982561085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Flober.cs using Guid(b5383a79831e7f045b5c499982561085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf22f70212c67843f3a5e48ff4dc4b2') in 0.001476 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.839 seconds
-Refreshing native plugins compatible for Editor in 11.88 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.869 seconds
+Refreshing native plugins compatible for Editor in 8.66 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.906 seconds
-Domain Reload Profiling: 3741ms
-	BeginReloadAssembly (257ms)
+- Finished resetting the current domain, in  2.244 seconds
+Domain Reload Profiling: 3109ms
+	BeginReloadAssembly (291ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (70ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (68ms)
 	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (438ms)
-		LoadAssemblies (519ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (532ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (53ms)
+		AnalyzeDomain (49ms)
 			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
+				TypeCache.ScanAssembly (1ms)
 			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2907ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2245ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (889ms)
+		SetupLoadedEditorAssemblies (831ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (613ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (556ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Script is not up to date after domain reload: guid(48435ad281e5b8c4799a8af0878f811f) path("Assets/Scripts/Guns/Bullet.cs") state(2)
-Refreshing native plugins compatible for Editor in 16.03 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 10.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4013 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4498.
-Memory consumption went from 139.9 MB to 139.6 MB.
-Total: 5.674300 ms (FindLiveObjects: 0.434000 ms CreateObjectMapping: 0.495100 ms MarkObjects: 4.380700 ms  DeleteObjects: 0.362400 ms)
+Unloading 4015 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4487.
+Memory consumption went from 139.6 MB to 139.4 MB.
+Total: 5.602200 ms (FindLiveObjects: 0.419100 ms CreateObjectMapping: 0.402700 ms MarkObjects: 4.539500 ms  DeleteObjects: 0.239500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -404,56 +286,160 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 104.391458 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shoutguns
+  artifactKey: Guid(e1f86ead64c01d549846dfa08bd95cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shoutguns using Guid(e1f86ead64c01d549846dfa08bd95cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dd6c8864fae75ca2404575e0ae2836') in 0.002894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.774363 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns
+  artifactKey: Guid(e1f86ead64c01d549846dfa08bd95cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns using Guid(e1f86ead64c01d549846dfa08bd95cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8457f4771dffb488e7e2923ba44dbc65') in 0.000745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.964693 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab
+  artifactKey: Guid(5ba63b5c82e167c49b997600bd5de6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab using Guid(5ba63b5c82e167c49b997600bd5de6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46245780532c10b61aa6b73fde96c76') in 0.000573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.546459 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Textures
+  artifactKey: Guid(b018eebfbb384914ebd0b81af4758d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Textures using Guid(b018eebfbb384914ebd0b81af4758d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0548d1d50f579f506d6cfd909c507e5f') in 0.000905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.147342 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab
+  artifactKey: Guid(5bae9e68354d87f4d8844f697ad42db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab using Guid(5bae9e68354d87f4d8844f697ad42db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a57af015d7893dfb73231ce68f831a') in 0.000784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.844806 seconds.
+  path: Assets/Scripts/Guns/Weapons/Snipers/Prefab
+  artifactKey: Guid(a91e418f0dfad8940ae25ada96c80c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Snipers/Prefab using Guid(a91e418f0dfad8940ae25ada96c80c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fbe502df95026acf6698d0baa3b689') in 0.001084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.400771 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Textures
+  artifactKey: Guid(89d0d5025c678e546bc2eff742a887a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Textures using Guid(89d0d5025c678e546bc2eff742a887a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9305487dbcbb8e3a7422a328fa37d51') in 0.000800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.397123 seconds.
+  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
+  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29540d0506d618533d78c789a5fc3834') in 1.057740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 8.604269 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/ak47gold.prefab
+  artifactKey: Guid(d792ea951a7fa9f4dba0ff01f9d1ff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/ak47gold.prefab using Guid(d792ea951a7fa9f4dba0ff01f9d1ff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2574e5e51fb3e1578ece3db8d3ebf2bf') in 0.138108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 3.740461 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/ak47gold.prefab
+  artifactKey: Guid(d792ea951a7fa9f4dba0ff01f9d1ff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/ak47gold.prefab using Guid(d792ea951a7fa9f4dba0ff01f9d1ff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7caf35fe1c7944deb553795370469d') in 0.227194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 57.668544 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748f5be107151d78c0a3a03e0737c18f') in 0.226249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 10.117709 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f3719636cfb2fbaa996cc57f5c5221') in 0.195777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 20.198134 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Shotgun.cs
+  artifactKey: Guid(06c45d2b70c61054eacd4d5c65661cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Shotgun.cs using Guid(06c45d2b70c61054eacd4d5c65661cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1decfc316f3e38af548a1ffae704f2b4') in 0.000926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.791 seconds
-Refreshing native plugins compatible for Editor in 7.57 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.769 seconds
+Refreshing native plugins compatible for Editor in 9.97 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.135 seconds
-Domain Reload Profiling: 2920ms
-	BeginReloadAssembly (255ms)
+- Finished resetting the current domain, in  2.039 seconds
+Domain Reload Profiling: 2805ms
+	BeginReloadAssembly (247ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (397ms)
-		LoadAssemblies (492ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (478ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (43ms)
-			TypeCache.Refresh (11ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (12ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (2135ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2040ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (777ms)
+		SetupLoadedEditorAssemblies (730ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (525ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 10.20 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 10.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4015 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4503.
-Memory consumption went from 140.1 MB to 139.9 MB.
-Total: 5.050300 ms (FindLiveObjects: 0.429600 ms CreateObjectMapping: 0.533400 ms MarkObjects: 3.844700 ms  DeleteObjects: 0.241000 ms)
+Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4499.
+Memory consumption went from 139.8 MB to 139.6 MB.
+Total: 5.866800 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.472600 ms MarkObjects: 4.694600 ms  DeleteObjects: 0.270900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -470,56 +456,72 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 9.718345 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Shotgun.cs
+  artifactKey: Guid(06c45d2b70c61054eacd4d5c65661cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Shotgun.cs using Guid(06c45d2b70c61054eacd4d5c65661cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a059350b0922773823e2f948acc41be') in 0.003002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 42.891283 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Shotgun.cs
+  artifactKey: Guid(06c45d2b70c61054eacd4d5c65661cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Shotgun.cs using Guid(06c45d2b70c61054eacd4d5c65661cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddede1738c0632a68f935bc55fcba6fc') in 0.000884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.813 seconds
-Refreshing native plugins compatible for Editor in 10.08 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.919 seconds
+Refreshing native plugins compatible for Editor in 14.50 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.184 seconds
-Domain Reload Profiling: 2991ms
-	BeginReloadAssembly (268ms)
+- Finished resetting the current domain, in  1.727 seconds
+Domain Reload Profiling: 2640ms
+	BeginReloadAssembly (310ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
+		DisableScriptedObjects (28ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (403ms)
-		LoadAssemblies (525ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (553ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
 			ResolveRequiredComponents (13ms)
-	FinalizeReload (2185ms)
+	FinalizeReload (1727ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (856ms)
+		SetupLoadedEditorAssemblies (648ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (141ms)
-			ProcessInitializeOnLoadAttributes (586ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 12.69 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 6.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4015 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (217.0 KB). Loaded Objects now: 4507.
-Memory consumption went from 140.1 MB to 139.9 MB.
-Total: 7.175600 ms (FindLiveObjects: 0.482800 ms CreateObjectMapping: 0.325800 ms MarkObjects: 6.009700 ms  DeleteObjects: 0.355100 ms)
+Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4503.
+Memory consumption went from 139.8 MB to 139.6 MB.
+Total: 4.712100 ms (FindLiveObjects: 0.399900 ms CreateObjectMapping: 0.131200 ms MarkObjects: 3.933900 ms  DeleteObjects: 0.245900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -537,95 +539,780 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 96.378747 seconds.
-  path: Assets/Prefab/bullet.prefab
-  artifactKey: Guid(794dee6dd72a9804dbf76d2562267ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/bullet.prefab using Guid(794dee6dd72a9804dbf76d2562267ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de6daf5f369bc15bbeb8fea683873a2') in 0.096035 seconds
+  Time since last request: 20.928695 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Shotgun.cs
+  artifactKey: Guid(06c45d2b70c61054eacd4d5c65661cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Shotgun.cs using Guid(06c45d2b70c61054eacd4d5c65661cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4800b8e3db9b3bc9262ea4c603858a') in 0.003936 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 3.033706 seconds.
-  path: Assets/Prefab/bullet.prefab
-  artifactKey: Guid(794dee6dd72a9804dbf76d2562267ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/bullet.prefab using Guid(794dee6dd72a9804dbf76d2562267ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2d82a9590521842fef30d6fa8e3e8d') in 0.011418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 3.512645 seconds.
-  path: Assets/Prefab/bullet.prefab
-  artifactKey: Guid(794dee6dd72a9804dbf76d2562267ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/bullet.prefab using Guid(794dee6dd72a9804dbf76d2562267ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9227becea1807b976c7b656cf46302d5') in 0.010189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 37.757343 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7c9fc7566a38d2eba003fbcca9898a') in 0.013797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 5.237847 seconds.
-  path: Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab
-  artifactKey: Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Guns/Weapons/Auto/Prefab/ak47gold.prefab using Guid(bb7b0076950edf54ca60e3f569709fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb56e55e58f7a8025eb3d7280d4cc6a') in 0.014206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.795 seconds
-Refreshing native plugins compatible for Editor in 8.82 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.804 seconds
+Refreshing native plugins compatible for Editor in 8.00 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.148 seconds
-Domain Reload Profiling: 2939ms
-	BeginReloadAssembly (274ms)
+- Finished resetting the current domain, in  1.649 seconds
+Domain Reload Profiling: 2447ms
+	BeginReloadAssembly (260ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (23ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (384ms)
-		LoadAssemblies (510ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (496ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (676ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 7.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (218.0 KB). Loaded Objects now: 4507.
+Memory consumption went from 139.8 MB to 139.6 MB.
+Total: 4.766400 ms (FindLiveObjects: 0.389200 ms CreateObjectMapping: 0.131300 ms MarkObjects: 3.996200 ms  DeleteObjects: 0.248300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.469399 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Flober.cs
+  artifactKey: Guid(b5383a79831e7f045b5c499982561085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Flober.cs using Guid(b5383a79831e7f045b5c499982561085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4dc99186420a0d9f5d8cb89c47b1e6') in 0.003650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.061864 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Flober.cs
+  artifactKey: Guid(b5383a79831e7f045b5c499982561085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Flober.cs using Guid(b5383a79831e7f045b5c499982561085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7504288aedfa42a92e9bcecdcad52450') in 0.000801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.910 seconds
+Refreshing native plugins compatible for Editor in 11.86 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.625 seconds
+Domain Reload Profiling: 2531ms
+	BeginReloadAssembly (322ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (572ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (642ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (436ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 8.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4511.
+Memory consumption went from 139.8 MB to 139.6 MB.
+Total: 4.979600 ms (FindLiveObjects: 0.384100 ms CreateObjectMapping: 0.121700 ms MarkObjects: 4.246000 ms  DeleteObjects: 0.226400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.423851 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/De1114.cs
+  artifactKey: Guid(37f19ea8232cc464baddd6d5a8126488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/De1114.cs using Guid(37f19ea8232cc464baddd6d5a8126488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4ecaf7ce0d3dcdb5b20d07b9416289') in 0.004196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.913 seconds
+Refreshing native plugins compatible for Editor in 10.67 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.058 seconds
+Domain Reload Profiling: 2966ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (510ms)
+		LoadAssemblies (590ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2058ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (742ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Script is not up to date after domain reload: guid(37f19ea8232cc464baddd6d5a8126488) path("Assets/Scripts/Guns/Weapons/Shotguns/De1114.cs") state(2)
+Refreshing native plugins compatible for Editor in 15.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.1 KB). Loaded Objects now: 4515.
+Memory consumption went from 139.8 MB to 139.6 MB.
+Total: 8.091100 ms (FindLiveObjects: 0.719600 ms CreateObjectMapping: 0.682300 ms MarkObjects: 6.327500 ms  DeleteObjects: 0.359800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.759 seconds
+Refreshing native plugins compatible for Editor in 12.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.862 seconds
+Domain Reload Profiling: 2617ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (464ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1863ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (724ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (478ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 9.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.0 KB). Loaded Objects now: 4520.
+Memory consumption went from 140.1 MB to 139.9 MB.
+Total: 5.273500 ms (FindLiveObjects: 0.434400 ms CreateObjectMapping: 0.162100 ms MarkObjects: 4.400300 ms  DeleteObjects: 0.275200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.816018 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/De1114.cs
+  artifactKey: Guid(37f19ea8232cc464baddd6d5a8126488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/De1114.cs using Guid(37f19ea8232cc464baddd6d5a8126488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eed9eaef5da03fa50d989150422cf33') in 0.002493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.200546 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac53de93bfd32c30fcc2aa8d4b265ab') in 0.096297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 10.015672 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181c54c475eeeb4c8bd4931e388d834e') in 0.009950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.837171 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad82f21447fc30ddfdf623a4f13b57a6') in 0.011983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.377080 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f19dfb29e602a9583acbc7fe8bff1e0') in 0.010337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.510694 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6057557859c8c351ab3cd5901c431c57') in 0.009874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.518801 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ab9fba40bda5dfca6b2542170bdb50') in 0.010583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.085083 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b04cbfdf70d72f375c3d137a5b2750') in 0.008673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.024721 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2b7dcb3a3fdb1b35f2fe872931fa5d') in 0.009814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.914759 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9089b203d818b36a8b91a83e1e3b8b9d') in 0.011037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.330515 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d3f6a7137cd4a50cd05ec73496b56c') in 0.009472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.409530 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160be51cbb12b524c11e209f8f45ef74') in 0.010286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 15.132899 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48321a9474642301ea334f68d3ffdde5') in 0.009405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.659376 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d80e414e0d9c21025c62194220a2c4') in 0.010416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 10.481791 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f841d011c8cda4ca129fa4ff9aeff7b2') in 0.009132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.997866 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de7301067761a211d1fb99dd300ce85') in 0.010646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.602321 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7373e48768cd16f55b43d0b31503c239') in 0.009564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 38.340980 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b46c30dcf7a8ae7a251eed80f09707b') in 0.011743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 9.028577 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86136d29de2cc6802af226f79fa24c7') in 0.011217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 31.801482 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dce40d90ba185207642d357a08527a') in 0.011943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5.921506 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b4533590a9434e36b32b82b196c217') in 0.009789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.000782 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed66595b35be2a54c3a6a36ca6295c1') in 0.009407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.618470 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a087981bcb59f91b2ee1aff977a9898') in 0.010213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.159421 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafb90d135231ebb99d0e967f2d9696b') in 0.009520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.269629 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46da958786b84044e9840baed39311db') in 0.009118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.330745 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8120d051d2fb6881f2705650780eb5e4') in 0.010369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 13.989546 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c90f28c8665757435ed6f6464a6ea0') in 0.012443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 3.816381 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88c14f6683e133a4bfde0a9ce0b6336') in 0.010523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 3.013989 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe048d160fa72259639aaef3ae858fef') in 0.011413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 1.414239 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fe2e035346dfda06cdb995409d3b86') in 0.010778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.190050 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b509ff00e495d10b0af654d50e3b045f') in 0.010426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 40.023108 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05343bc07a7b24a505066281ae9762d') in 0.018908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 4.227038 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ec48d81d0be774f8c62e4725df91e3') in 0.018788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.737 seconds
+Refreshing native plugins compatible for Editor in 8.26 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.953 seconds
+Domain Reload Profiling: 2685ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (2149ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1954ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (756ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 11.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.7 KB). Loaded Objects now: 4524.
+Memory consumption went from 139.8 MB to 139.6 MB.
+Total: 4.831800 ms (FindLiveObjects: 0.400900 ms CreateObjectMapping: 0.149500 ms MarkObjects: 4.041500 ms  DeleteObjects: 0.238500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.964154 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcea8b899a26df1f65d5b80251480146') in 0.097309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 7.874569 seconds.
+  path: Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab
+  artifactKey: Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Shotguns/Prefab/de1114.prefab using Guid(527c8885a7ea40d4faf49c4522d101a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f32ebe5648979c5d08447218ebace3') in 0.012908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 28.891358 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/Flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac6106d965eb6f416bd175d2d04a3e5') in 0.012571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 8.391855 seconds.
+  path: Assets/Scripts/Guns/Weapons/Pistols/Prefab/flober.prefab
+  artifactKey: Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guns/Weapons/Pistols/Prefab/flober.prefab using Guid(4637048725ede604dab313cab6e4ddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9be643192ab8f8d4d82680f511dba9') in 0.011616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.756 seconds
+Refreshing native plugins compatible for Editor in 7.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.823 seconds
+Domain Reload Profiling: 2575ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (368ms)
+		LoadAssemblies (462ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1824ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (723ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 10.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.1 KB). Loaded Objects now: 4528.
+Memory consumption went from 139.8 MB to 139.6 MB.
+Total: 6.270900 ms (FindLiveObjects: 0.491200 ms CreateObjectMapping: 0.488000 ms MarkObjects: 4.995700 ms  DeleteObjects: 0.294000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.752 seconds
+Refreshing native plugins compatible for Editor in 9.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.853 seconds
+Domain Reload Profiling: 2601ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1854ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (751ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
+			InitializePlatformSupportModulesInManaged (40ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (126ms)
-			ProcessInitializeOnLoadAttributes (512ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (508ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 10.79 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 10.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4014 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (217.0 KB). Loaded Objects now: 4511.
-Memory consumption went from 139.9 MB to 139.7 MB.
-Total: 5.674900 ms (FindLiveObjects: 0.412900 ms CreateObjectMapping: 0.188100 ms MarkObjects: 4.821200 ms  DeleteObjects: 0.251300 ms)
+Unloading 4018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4532.
+Memory consumption went from 140.1 MB to 139.9 MB.
+Total: 5.374900 ms (FindLiveObjects: 0.417900 ms CreateObjectMapping: 0.318000 ms MarkObjects: 4.372500 ms  DeleteObjects: 0.264800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
