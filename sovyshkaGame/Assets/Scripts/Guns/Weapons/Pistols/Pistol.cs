@@ -66,9 +66,8 @@ public class Pistol : Weapon
 
     private IEnumerator CompleteReload(int roundsToReload)
     {
+        playReloadSound();
         yield return new WaitForSeconds(reloadTime); // Ждем время перезарядки
-
-        // Здесь можно добавить звук или анимацию, указывающие на завершение перезарядки
 
         ammo += roundsToReload; // Увеличиваем количество патронов после перезарядки
         isReloading = false; // Сбрасываем флаг перезарядки
