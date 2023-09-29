@@ -77,12 +77,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 49de381f9957f9b419cfe4155dcdc004, type: 3}
+  m_Sprite: {fileID: -343421312, guid: 49de381f9957f9b419cfe4155dcdc004, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.28, y: 1.28}
+  m_Size: {x: 1, y: 0.328125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -294,7 +294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 7.5
   fireRate: 0.1
-  accuracy: 0
+  accuracy: 3
   gunshotSound: {fileID: 1741854046029451426}
   reloadSound: {fileID: -7141205020586199191}
   firePoint: {fileID: 634047002797877996}
@@ -327,7 +327,7 @@ Transform:
   m_GameObject: {fileID: 7941323792501247502}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6417, y: 0.0255, z: 0}
+  m_LocalPosition: {x: 0.71227, y: 0.10051, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
