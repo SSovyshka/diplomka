@@ -3,16 +3,22 @@ using UnityEngine;
 
 public class Pistol : Weapon
 {
+    [Header("Характеристики")]
     public Transform firePoint;
     public GameObject bullet;
     public int ammoCapacity;
     public float bulletSpeed;
     public float reloadTime;
 
-    private float TimeFire;
-    private int ammo;
-    private bool isReloading = false; // Флаг для отслеживания процесса перезарядки
+    [Header("Руки")]
+    public Transform leftHand;
+    public Transform rightHand;
+    public Transform leftHandPoint;
+    public Transform rightHandPoint;
 
+    public float TimeFire;
+    public int ammo;
+    public bool isReloading = false; // Флаг для отслеживания процесса перезарядки
 
     private void Start()
     {
@@ -22,16 +28,34 @@ public class Pistol : Weapon
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && !isReloading && ammo > 0)
+        HandPosition();
+
+        if (Input.GetKey(KeyCode.Mouse0) && !isReloading && ammo > 0)
         {
             Shoot();
             Debug.Log(ammo);
         }
-        TimeFire -= Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.R) && !isReloading && ammo < ammoCapacity)
         {
             Reload();
+        }
+
+        TimeFire -= Time.deltaTime;
+    }
+
+    private void HandPosition()
+    {
+        Vector3 diference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        float rotateWeapon = Mathf.Atan2(diference.y, diference.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, rotateWeapon + 0);
+
+        if (leftHand != null && rightHand != null && leftHandPoint != null && rightHandPoint != null)
+        {
+            leftHand.position = leftHandPoint.position;
+            leftHand.rotation = leftHandPoint.rotation;
+            rightHand.position = rightHandPoint.position;
+            rightHand.rotation = rightHandPoint.rotation;
         }
     }
 
@@ -45,7 +69,7 @@ public class Pistol : Weapon
                 gObject.GetComponent<Bullet>().weapon = this;
                 gObject.GetComponent<Bullet>().bulletSpeed = bulletSpeed;
             }
-            playGunSound();
+            gunshotSound.Play();
             TimeFire = fireRate;
             ammo--; // Уменьшение количества доступных патронов при выстреле
         }
@@ -58,7 +82,7 @@ public class Pistol : Weapon
         if (roundsToReload >= 0)
         {
             isReloading = true; // Устанавливаем флаг перезарядки
-            // Здесь можно воспроизвести звук перезарядки или анимацию
+            reloadSound.Play();
             // После завершения перезарядки сбросим флаг
             StartCoroutine(CompleteReload(roundsToReload));
         }
@@ -66,19 +90,9 @@ public class Pistol : Weapon
 
     private IEnumerator CompleteReload(int roundsToReload)
     {
-        playReloadSound();
         yield return new WaitForSeconds(reloadTime); // Ждем время перезарядки
 
         ammo += roundsToReload; // Увеличиваем количество патронов после перезарядки
         isReloading = false; // Сбрасываем флаг перезарядки
-    }
-
-    public void playGunSound()
-    {
-        gunshotSound.Play();
-    }
-    public void playReloadSound()
-    {
-        reloadSound.Play();
     }
 }

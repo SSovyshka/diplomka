@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    [Header("Характеристики")]
     public float damage;
     public float fireRate;
     public float accuracy;

@@ -392,7 +392,6 @@
 "Assets/Scripts/Guns/Weapons/Auto/M4.cs"
 "Assets/Scripts/Guns/Weapons/Bullet.cs"
 "Assets/Scripts/Guns/Weapons/Pistols/Flober.cs"
-"Assets/Scripts/Guns/Weapons/Pistols/Glock18.cs"
 "Assets/Scripts/Guns/Weapons/Pistols/Pistol.cs"
 "Assets/Scripts/Guns/Weapons/Shotguns/De1114.cs"
 "Assets/Scripts/Guns/Weapons/Shotguns/Shotgun.cs"
@@ -402,6 +401,13 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/TesstWeapons.cs"
 "Assets/Scripts/TestBullet.cs"
+"Assets/Scripts/UI/Controllers/UIInventoryController.cs"
+"Assets/Scripts/UI/InventorySO.cs"
+"Assets/Scripts/UI/ItemSO.cs"
+"Assets/Scripts/UI/MouseFollower.cs"
+"Assets/Scripts/UI/UIIntentoryItem.cs"
+"Assets/Scripts/UI/UIInventoryDescription.cs"
+"Assets/Scripts/UI/UIInventoryPage.cs"
 "Assets/Scripts/Weapon.cs"
 -langversion:9.0
 
